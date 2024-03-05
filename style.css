@@ -1,0 +1,129 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(244, 242, 329);
+  font-family: "Poppins", sans-serif;
+
+}
+
+
+
+nav .wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 ;
+  background-color: white;
+}
+
+nav .wrapper .left,
+nav .wrapper .right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap : 1.5rem;
+}
+
+nav .wrapper .left{
+  padding-left: 4rem;
+}
+nav .wrapper .right{
+  padding-right: 4rem;
+}
+
+nav .wrapper .logo{
+  font-size: 2rem;
+  color: darkgray;
+}
+
+nav .wrapper .left .fila{
+  background-color: rgb(226,245,250);
+  width: 100%;
+  padding: 0.5rem 0.8rem;
+  gap: 0.5rem;
+  display: flex;
+  align-items: center; 
+}
+
+nav .wrapper .left .fila input[type="search"]{
+  width: 16rem;
+  border: none;
+  background: transparent;
+}
+
+.wrapper {
+  max-width: 100%;
+  max-height: 10%;
+  margin: 0px auto 0px;
+}
+.wrapper1 {
+  max-width: 66%;
+  max-height: 10%;
+  margin: 60px auto 15px;
+}
+
+.wrapper > div {
+  border: 2.5px solid rgb(233, 233, 233);
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255);
+  color: black;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.wrapper1 > div {
+  border: 2.5px solid rgb(233, 233, 233);
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255);
+  color: black;
+}
+.wrapper1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.container {
+  position: fixed; 
+  top: 80px; 
+  right: 0; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 180px;
+  height: 100vh; 
+  border: 2.5px solid rgb(233, 233, 233);
+  background-color: rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  align-items: center;
+}
+.one {
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+}
+.two {
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+}
+.three {
+  grid-column: 4 / 5;
+  grid-row: 1 / 3;
+}
+.six{
+  grid-column: 2 / 4;
+  grid-row: 2 / 5;
+}
+.fila > div {
+  margin: 0 20px; 
+}
+  
